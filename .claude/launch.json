@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pmm-hub",
+      "runtimeExecutable": "/Users/bacak/.nvm/versions/node/v24.16.0/bin/node",
+      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "--webpack", "--port", "3100"],
+      "port": 3100
+    },
+    {
+      "name": "customer-hub",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4599", "--directory", "/Users/bacak/Code/EGFabri-CustomerHub"],
+      "port": 4599
+    }
+  ]
+}
